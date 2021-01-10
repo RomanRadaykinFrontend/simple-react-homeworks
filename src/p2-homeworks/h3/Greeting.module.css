@@ -1,0 +1,61 @@
+.someClass {
+
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.notError{
+    border: 2px solid green;
+}
+
+.appWrapper{
+    display: flex;
+}
+
+.appContent{
+    margin: 0 auto;
+}
+
+.count{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.formWrapper button{
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid green;
+    color: white;
+    text-decoration: none;
+    background: rgb(64,199,129);
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.2);
+}
+
+.formWrapper button:active{
+    background: rgb(33,147,90);
+}
+
+.formWrapper button:hover{
+    background: rgb(53, 167, 110);
+}
+
+.formWrapper input{
+    box-sizing: border-box;
+    width: 300px;
+    padding: 15px;
+    outline: none;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.errorMessage{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 20px;
+    color: red;
+}
