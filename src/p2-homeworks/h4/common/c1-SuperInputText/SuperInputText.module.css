@@ -1,10 +1,18 @@
-.superInput {
-    border: 3px solid green;
-    background: purple;
+.superInput, .errorInput {
+    border-style: solid;
+    padding: 16px;
+    font-size: 20px;
+    border-width: 6px;
+    border-radius: 15px;
+    background-color: #f0c8f0;
+    border-color: #c938c9;
+    box-shadow: inset 0px 0px 21px 0px rgba(42, 42, 42, .48);
+    text-shadow: 0px 0px 0px rgba(42, 42, 42, .75);
+    font-family: monospace;
 }
 
 .errorInput {
-    border: 3px solid lime;
+
     background: red;
 }
 
