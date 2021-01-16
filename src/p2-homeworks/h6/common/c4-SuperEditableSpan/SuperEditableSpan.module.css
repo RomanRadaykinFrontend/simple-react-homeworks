@@ -1,0 +1,18 @@
+.superEditableSpan{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 30px;
+    letter-spacing: 0;
+    word-spacing: 1.6px;
+    color: #bc80ea;
+    font-weight: 700;
+    text-decoration: none solid #bc80ea;
+    font-style: normal;
+    font-feature-settings: "c2sc";
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+
+.superEditableSpan:hover{
+    color: red;
+    cursor: pointer;
+}
