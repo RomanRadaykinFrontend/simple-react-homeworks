@@ -1,4 +1,7 @@
 import React, {SelectHTMLAttributes, DetailedHTMLProps, ChangeEvent} from "react";
+import cl from '../../HW7.module.css'
+import MenuItem from "@material-ui/core/MenuItem";
+import {Select} from "@material-ui/core";
 
 type DefaultSelectPropsType = DetailedHTMLProps<SelectHTMLAttributes<HTMLSelectElement>, HTMLSelectElement>
 
@@ -14,16 +17,24 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
         ...restProps
     }
 ) => {
-    const mappedOptions: any[] = []; // map options with key
+    const mappedOptions: any[] = options ? options.map((item, index) => {
+        return <MenuItem value={item} key={'name' + "-" + index}>
+            {item}
+        </MenuItem>
+    }) : [] // map options with key
 
-    const onChangeCallback = (e: ChangeEvent<HTMLSelectElement>) => {
-        // onChange, onChangeOption
+    const onChangeCallback = (e: React.ChangeEvent<any>) => {
+        if (onChangeOption) {
+            onChangeOption(e.target.value)
+        }
     }
 
     return (
-        <select onChange={onChangeCallback} {...restProps}>
+        <Select className={cl.styleSelect} onChange={onChangeCallback}>
             {mappedOptions}
-        </select>
+        </Select>
+
+
     );
 }
 
