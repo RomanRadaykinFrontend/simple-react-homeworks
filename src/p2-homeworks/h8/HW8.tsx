@@ -16,11 +16,13 @@ function HW8() {
 
     const finalPeople = people.map(p => (
         <div key={p._id}>
-            some name, age
+            {p._id}: {p.name}, {p.age} лет
         </div>
     ))
 
     const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: "sort", payload: "up"}))
+    const sortDown = () => setPeople(homeWorkReducer(initialPeople, {type: "sort", payload: "down"}))
+    const checkAge = () => setPeople(homeWorkReducer(initialPeople, {type: "check", payload: 55}))
 
     return (
         <div>
@@ -31,9 +33,8 @@ function HW8() {
 
             {finalPeople}
             <div><SuperButton onClick={sortUp}>sort up</SuperButton></div>
-            <div>sort down</div>
-
-            check 18
+            <div><SuperButton onClick={sortDown}>sort down</SuperButton></div>
+            <div><SuperButton onClick={checkAge}>check 55 years old</SuperButton></div>
 
             <hr/>
             {/*для личного творчества, могу проверить*/}

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e733e45b-eead-4171-a4b9-4158678b5ac8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h7/common/c6-SuperRadio/SuperRadio.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/HW8.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/bll/homeWorkReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/bll/homeWorkReducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h8/bll/tests/homeWorkReducer.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h8/bll/tests/homeWorkReducer.test.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +32,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p2-homeworks/h5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/p2-homeworks/h8/bll/tests/homeWorkReducer.test.tsx" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="ts.external.directory.path" value="C:\it-kamasutra\simple-react-homeworks\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -40,7 +44,7 @@
       <recent name="C:\it-kamasutra\simple-react-homeworks\src\p2-homeworks\h5\pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.filterAffairs.test.tsx">
+  <component name="RunManager" selected="Jest.homeWorkReducer.test.tsx">
     <configuration name="deleteAffair.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -51,19 +55,23 @@
       <test-file value="$PROJECT_DIR$/src/p2-homeworks/h2/tests/deleteAffair.test.tsx" />
       <method v="2" />
     </configuration>
-    <configuration name="filterAffairs.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="homeWorkReducer.test.tsx" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/src/p2-homeworks/h2/tests/filterAffairs.test.tsx" />
+      <test-file value="$PROJECT_DIR$/src/p2-homeworks/h8/bll/tests/homeWorkReducer.test.tsx" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Jest.deleteAffair.test.tsx" />
+      <item itemvalue="Jest.homeWorkReducer.test.tsx" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.filterAffairs.test.tsx" />
+        <item itemvalue="Jest.homeWorkReducer.test.tsx" />
         <item itemvalue="Jest.deleteAffair.test.tsx" />
       </list>
     </recent_temporary>
@@ -95,6 +103,7 @@
       <workItem from="1610822464673" duration="149000" />
       <workItem from="1610822649617" duration="12000" />
       <workItem from="1611596952832" duration="4684000" />
+      <workItem from="1612704569025" duration="1914000" />
     </task>
     <servers />
   </component>
@@ -102,26 +111,31 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1610045779830">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="223" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612705568746">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="223" y="61" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1612705568746" />
+    <state x="549" y="178" key="FileChooserDialogImpl" timestamp="1612705565768">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="178" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1612705565768" />
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1610045779830" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1608562036031">
+    <state width="1510" height="197" key="GridCell.Tab.0.bottom" timestamp="1612706266463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608562036031" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1608562036031">
+    <state width="1510" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1612706266463" />
+    <state width="1510" height="197" key="GridCell.Tab.0.center" timestamp="1612706266462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608562036031" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1608562036031">
+    <state width="1510" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1612706266462" />
+    <state width="1510" height="197" key="GridCell.Tab.0.left" timestamp="1612706266462">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608562036031" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1608562036031">
+    <state width="1510" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1612706266462" />
+    <state width="1510" height="197" key="GridCell.Tab.0.right" timestamp="1612706266463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608562036031" />
+    <state width="1510" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612706266463" />
     <state x="425" y="188" key="run.anything.popup" timestamp="1610396838807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
