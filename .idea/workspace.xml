@@ -4,11 +4,11 @@
     <list default="true" id="e733e45b-eead-4171-a4b9-4158678b5ac8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h10/HW10.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/HW10.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/loadingReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/loadingReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h10/bll/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/HW11.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c7-SuperRange/SuperRange.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h11/common/c8-SuperDoubleRange/SuperDoubleRange.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior+.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h5/pages/Junior+.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +113,9 @@
       <workItem from="1612802890254" duration="663000" />
       <workItem from="1612854845985" duration="599000" />
       <workItem from="1613397194970" duration="181000" />
-      <workItem from="1613417492768" duration="4156000" />
+      <workItem from="1613417492768" duration="4577000" />
+      <workItem from="1614155207714" duration="2689000" />
+      <workItem from="1614765603731" duration="4551000" />
     </task>
     <servers />
   </component>
