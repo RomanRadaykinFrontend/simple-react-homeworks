@@ -25,7 +25,8 @@ const SuperSelect: React.FC<SuperSelectPropsType> = (
 
     const onChangeCallback = (e: React.ChangeEvent<any>) => {
         if (onChangeOption) {
-            onChangeOption(e.currentTarget.value)
+            console.log(e)
+            onChangeOption(e.target.value)
         }
     }
 

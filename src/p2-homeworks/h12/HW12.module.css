@@ -5,19 +5,26 @@
 .dark-text {
     color: aliceblue;
 }
+.yellow-text {
+    color: yellowgreen;
+}
 
 .red {
     background: lightcoral;
+}
+
+.yellow {
+    background: yellow;
 }
 
 .red-text {
     color: aqua;
 }
 
-.some {
+.lightgreen {
     background: lightgreen;
 }
 
-.some-text {
+.lightgreen-text {
     color: darkslateblue;
 }
